@@ -1,0 +1,64 @@
+PAYER POLICY DOCUMENT
+Policy ID: BCBS-ONCO-CHEMO-2024
+Payer: BlueCross BlueShield
+Effective Date: March 1, 2024
+Policy Title: Oncology Drug Prior Authorization - Targeted Therapy & Immunotherapy
+
+================================================================================
+COVERED ONCOLOGY MEDICATIONS - PRIOR AUTHORIZATION REQUIRED
+================================================================================
+
+1. PEMBROLIZUMAB (Keytruda) - CPT J2786, J9271
+   - NSCLC (Non-Small Cell Lung Cancer):
+     * APPROVED: First-line treatment with PD-L1 TPS ≥ 50% (ICD-10: C34.x)
+     * APPROVED: First-line combination with carboplatin/pemetrexed regardless of PD-L1
+     * APPROVED: Previously treated NSCLC with PD-L1 TPS ≥ 1%
+     * REQUIRED DOCUMENTATION: Pathology report, PD-L1 testing result, EGFR/ALK/ROS1 negative status
+   - Melanoma (ICD-10: C43.x):
+     * APPROVED: Unresectable or metastatic melanoma
+     * APPROVED: Adjuvant treatment for Stage IIB-IV resected melanoma
+   - DENIED: PD-L1 untested tumors (testing must be completed first)
+   - DENIED: Concurrent use with other checkpoint inhibitors without documentation
+
+2. TRASTUZUMAB (Herceptin) - CPT J9355
+   - Breast Cancer (ICD-10: C50.x):
+     * APPROVED: HER2-positive early breast cancer (adjuvant)
+     * APPROVED: HER2-positive metastatic breast cancer
+     * REQUIRED: HER2 IHC 3+ OR ISH amplified test result
+     * REQUIRED: ECHO/MUGA baseline cardiac function
+   - Gastric Cancer (ICD-10: C16.x):
+     * APPROVED: HER2-positive gastric or gastroesophageal junction adenocarcinoma
+   - DENIED: HER2-negative tumors
+   - DENIED: Without baseline cardiac evaluation
+
+3. IMATINIB (Gleevec) - CPT J9999 (NOC)
+   - CML (ICD-10: C91.1x):
+     * APPROVED: Philadelphia chromosome-positive CML, chronic phase
+     * APPROVED: Accelerated or blast phase CML
+     * REQUIRED: Cytogenetic confirmation of Ph+ chromosome
+   - GIST (ICD-10: C49.A0-C49.A9):
+     * APPROVED: KIT (CD117)-positive unresectable or metastatic GIST
+     * REQUIRED: Pathology confirming KIT positivity
+
+================================================================================
+STEP THERAPY REQUIREMENTS
+================================================================================
+For most oncology indications, step therapy requirements are WAIVED when:
+- Standard of care mandates the requested agent as first-line
+- Clinical guidelines (NCCN, ASCO) support the requested treatment
+- Prior authorization is requested by board-certified oncologist
+
+================================================================================
+QUANTITY LIMITS AND DURATION
+================================================================================
+- Initial authorization: 6 months for most agents
+- Continuation: Re-authorization required at 6-month intervals
+- Required at re-auth: Response assessment (imaging, labs), tolerability documentation
+- Disease progression on current therapy: New PA required for regimen change
+
+================================================================================
+EXPEDITED REVIEW
+================================================================================
+72-hour turnaround for all oncology prior authorization requests.
+Expedited 24-hour review for patients with rapidly progressing disease.
+Contact: OncologyPA@bcbs-example.com | 1-800-XXX-XXXX (Oncology PA Line)

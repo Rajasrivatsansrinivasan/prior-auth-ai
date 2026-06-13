@@ -1,0 +1,77 @@
+PAYER POLICY DOCUMENT
+Policy ID: CIGNA-BH-PSYCH-2024
+Payer: Cigna Behavioral Health
+Effective Date: January 1, 2024
+Policy Title: Behavioral Health - Psychiatric Medication Prior Authorization
+
+================================================================================
+ANTIPSYCHOTIC MEDICATIONS - SECOND GENERATION
+================================================================================
+
+1. ARIPIPRAZOLE (Abilify) - NDC/CPT J0401
+   - Schizophrenia (ICD-10: F20.x):
+     * APPROVED: First-line after failure or contraindication to one generic antipsychotic
+     * PREFERRED STEP: Must try generic aripiprazole first (same molecule)
+   - Bipolar I Disorder (ICD-10: F31.x):
+     * APPROVED: Acute manic or mixed episodes
+     * APPROVED: Adjunct to lithium or valproate
+   - Major Depressive Disorder - Adjunct (ICD-10: F32.x, F33.x):
+     * APPROVED: Adjunct therapy after failure of 2 antidepressants
+     * REQUIRED: Documentation of 2 adequate antidepressant trials
+
+2. CLOZAPINE (Clozaril) - NDC
+   - APPROVED: Treatment-resistant schizophrenia (failure of ≥ 2 antipsychotics)
+   - APPROVED: Suicidal behavior in schizophrenia or schizoaffective disorder
+   - REQUIRED: Enrollment in REMS program (mandatory)
+   - REQUIRED: Baseline ANC ≥ 1500/μL
+   - MONITORING: Weekly CBC x 6 months, biweekly x 6 months, then monthly
+   - DENIAL: ANC < 1000/μL (absolute contraindication)
+
+3. LONG-ACTING INJECTABLE ANTIPSYCHOTICS (LAI)
+   Paliperidone Palmitate (Invega Sustenna) - CPT J2426:
+   * APPROVED: Schizophrenia with documented non-adherence to oral antipsychotics
+   * APPROVED: Patient preference after discussion of alternatives
+   * REQUIRED: Adequate trial of oral antipsychotic (minimum 4 weeks)
+   Aripiprazole Monohydrate (Aristada) - CPT J0401:
+   * Same criteria as above
+
+================================================================================
+STIMULANTS - ADHD (Adult)
+================================================================================
+AMPHETAMINE SALTS (Adderall XR) - Schedule II
+   - Adult ADHD (ICD-10: F90.0, F90.1, F90.2):
+     * APPROVED: After trial of methylphenidate-based medication (any formulation)
+     * APPROVED: Documented intolerance to methylphenidate
+     * REQUIRED: Adult ADHD diagnosis by psychiatrist or licensed psychologist
+     * REQUIRED: Structured diagnostic evaluation (not screening tool alone)
+   - Quantity Limit: 30-day supply maximum; no early refills
+   - Age restriction: Must be ≥ 18 for adult ADHD indication
+
+LISDEXAMFETAMINE (Vyvanse):
+   - Step Therapy: Generic amphetamine salts preferred
+   - APPROVED: Failure of 2 generic stimulants OR binge eating disorder
+   - Binge Eating Disorder (ICD-10: F50.81):
+     * APPROVED: Moderate-severe BED diagnosis by mental health professional
+
+================================================================================
+MENTAL HEALTH PARITY COMPLIANCE
+================================================================================
+Per Mental Health Parity and Addiction Equity Act (MHPAEA):
+- Behavioral health PA requirements are no more restrictive than medical PA requirements
+- Step therapy requirements mirror those applied to comparable medical conditions
+- Any denial must cite clinical criteria equivalent to those used for medical/surgical
+
+================================================================================
+TELEHEALTH PRESCRIBING
+================================================================================
+Effective 2024: Controlled substances (Schedule II-IV) prescribed via telehealth
+require in-person evaluation within 30 days for PA continuation under Cigna policy.
+
+================================================================================
+APPEALS
+================================================================================
+All psychiatric medication denials: 
+- Standard appeal: 30 days
+- Expedited appeal: 72 hours for urgent clinical situations
+- Peer-to-peer: Available within 72 hours of denial notification
+- External review available after internal appeal exhaustion

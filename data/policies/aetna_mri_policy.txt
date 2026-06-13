@@ -1,0 +1,57 @@
+PAYER POLICY DOCUMENT
+Policy ID: AETNA-IMG-MRI-2024
+Payer: Aetna Health Plans
+Effective Date: January 1, 2024
+Policy Title: Magnetic Resonance Imaging (MRI) - Prior Authorization Requirements
+
+================================================================================
+CLINICAL INDICATIONS - APPROVED WITH PRIOR AUTHORIZATION
+================================================================================
+
+1. LUMBAR SPINE MRI (CPT 72148, 72149, 72158)
+   - Indication: Low back pain persisting for ≥ 6 weeks despite conservative treatment
+   - Conservative treatment must include: physical therapy (minimum 6 sessions), NSAIDs, and activity modification
+   - Documentation required: Treatment log from physical therapist, prescription history
+   - APPROVED: Suspected herniated disc with radiculopathy (pain radiating below knee)
+   - APPROVED: Cauda equina syndrome symptoms (bowel/bladder dysfunction)
+   - APPROVED: Prior spinal surgery evaluation
+   - DENIED: Acute low back pain < 6 weeks without red flags
+   - DENIED: Routine screening without clinical indication
+
+2. BRAIN MRI (CPT 70551, 70552, 70553)
+   - APPROVED: New onset seizures
+   - APPROVED: Headaches with neurological deficits
+   - APPROVED: Suspected MS with clinical presentation
+   - APPROVED: Post-stroke evaluation
+   - APPROVED: Cognitive decline evaluation in patients > 60
+   - DENIED: Routine headaches without neurological symptoms
+   - DENIED: Headaches responsive to OTC medications
+
+3. KNEE MRI (CPT 73721, 73722, 73723)
+   - APPROVED: Acute injury with suspected ligament or meniscal tear (mechanism of injury documented)
+   - APPROVED: Failure of conservative treatment ≥ 4 weeks for chronic knee pain
+   - APPROVED: Pre-surgical planning
+   - DENIED: Acute sprain without instability signs within first 2 weeks
+
+================================================================================
+DOCUMENTATION REQUIREMENTS
+================================================================================
+All MRI requests must include:
+- ICD-10 diagnosis code(s)
+- CPT procedure code
+- Clinical notes from ordering physician
+- Evidence of failed conservative therapy (if applicable)
+- Ordering physician NPI
+- Patient demographics and insurance ID
+
+================================================================================
+APPEAL PROCESS
+================================================================================
+Denied requests may be appealed within 60 days. Expedited review available for
+urgent clinical situations. Peer-to-peer review available within 72 hours of denial.
+
+================================================================================
+POLICY BASIS
+================================================================================
+This policy is consistent with ACR Appropriateness Criteria, ACP guidelines,
+and evidence-based literature as reviewed by Aetna Medical Policy Committee.

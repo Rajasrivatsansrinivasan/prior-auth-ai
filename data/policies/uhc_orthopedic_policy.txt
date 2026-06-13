@@ -1,0 +1,77 @@
+PAYER POLICY DOCUMENT
+Policy ID: UHC-SURG-ORTHO-2024
+Payer: UnitedHealthcare
+Effective Date: February 1, 2024
+Policy Title: Orthopedic Surgery Prior Authorization Guidelines
+
+================================================================================
+TOTAL JOINT REPLACEMENT
+================================================================================
+
+1. TOTAL KNEE ARTHROPLASTY (TKA) - CPT 27447
+   APPROVAL CRITERIA (ALL must be met):
+   a) Diagnosis of moderate to severe osteoarthritis confirmed by X-ray (Kellgren-Lawrence Grade 3-4)
+      ICD-10: M17.11, M17.12, M17.31, M17.32
+   b) Conservative treatment failure for ≥ 3 months including ALL of:
+      - Physical therapy (minimum 8 sessions documented)
+      - NSAIDs or analgesics at therapeutic doses
+      - Intra-articular corticosteroid injection (at least 1)
+   c) Documented functional limitation (unable to perform ADLs)
+   d) BMI < 40 OR documented weight management counseling if BMI ≥ 40
+   e) Pre-operative cardiac clearance if age > 65 or cardiac history
+   
+   DENIAL CRITERIA:
+   - K-L Grade 1-2 on most recent imaging (within 12 months)
+   - Conservative therapy < 3 months
+   - Active joint infection
+   - Severe peripheral vascular disease
+   - BMI > 45 without documented weight loss program enrollment
+
+2. TOTAL HIP ARTHROPLASTY (THA) - CPT 27130
+   APPROVAL CRITERIA (ALL must be met):
+   a) Severe hip osteoarthritis, avascular necrosis, or failed ORIF
+      ICD-10: M16.11, M16.12, M87.051, M87.052
+   b) Conservative treatment failure ≥ 3 months
+   c) Pain causing significant functional impairment
+   d) BMI < 40 OR weight management documentation
+   
+   APPROVED WITHOUT STEP THERAPY:
+   - Displaced femoral neck fracture (CPT 27236)
+   - Failed prior hip arthroplasty (revision, CPT 27134)
+   - Avascular necrosis Stage III-IV
+
+3. ROTATOR CUFF REPAIR - CPT 29827
+   APPROVAL CRITERIA:
+   a) MRI-confirmed full-thickness rotator cuff tear
+   b) Failed conservative treatment ≥ 6 weeks (PT, injections)
+   c) Significant functional limitation
+   
+   APPROVED WITHOUT CONSERVATIVE THERAPY:
+   - Acute traumatic complete tear with mechanism of injury documented
+   - Massive tear with pseudoparalysis
+
+================================================================================
+BARIATRIC SURGERY (CPT 43644, 43645, 43775)
+================================================================================
+APPROVAL CRITERIA (ALL must be met):
+- BMI ≥ 40 OR BMI ≥ 35 with at least one obesity-related comorbidity
+  (T2DM, hypertension, sleep apnea, GERD, osteoarthritis)
+- Documented 6-month medically supervised weight loss program
+- Psychological evaluation completed within 6 months
+- Nutritional evaluation completed
+- No untreated substance abuse within 12 months
+- No uncontrolled psychiatric condition
+
+================================================================================
+IMPLANT AUTHORIZATION
+================================================================================
+High-cost implants (>$5,000) require separate implant authorization.
+Preferred vendor list applies. Non-preferred implants require clinical justification.
+
+================================================================================
+POST-SURGICAL REQUIREMENTS
+================================================================================
+All approved surgical cases require:
+- Notification of surgical date 5 business days prior
+- Post-surgical clinical summary within 30 days
+- Compliance with post-op PT requirements for continued coverage

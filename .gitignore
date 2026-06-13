@@ -1,0 +1,33 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Database
+*.db
+*.sqlite
+
+# FAISS index (regenerate from policies)
+data/faiss_index/
+
+# HuggingFace model cache
+.cache/
+~/.cache/huggingface/
+
+# Streamlit
+.streamlit/
+
+# Pytest
+.pytest_cache/
+htmlcov/
+.coverage
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Docker
+.dockerignore

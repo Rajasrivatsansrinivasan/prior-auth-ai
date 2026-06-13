@@ -1,0 +1,54 @@
+version: "3.9"
+
+services:
+  # PostgreSQL database (optional — app defaults to SQLite without this)
+  db:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_DB: prior_auth_db
+      POSTGRES_USER: pauser
+      POSTGRES_PASSWORD: papassword
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U pauser"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # FastAPI backend
+  api:
+    build: .
+    command: uvicorn app.api:app --host 0.0.0.0 --port 8000 --reload
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql://pauser:papassword@db:5432/prior_auth_db
+      - FAISS_INDEX_PATH=/app/data/faiss_index
+      - POLICY_DOCS_PATH=/app/data/policies
+    volumes:
+      - .:/app
+    depends_on:
+      db:
+        condition: service_healthy
+
+  # Streamlit frontend
+  streamlit:
+    build: .
+    command: streamlit run app/streamlit_app.py --server.port=8501 --server.address=0.0.0.0
+    ports:
+      - "8501:8501"
+    environment:
+      - DATABASE_URL=postgresql://pauser:papassword@db:5432/prior_auth_db
+      - FAISS_INDEX_PATH=/app/data/faiss_index
+      - POLICY_DOCS_PATH=/app/data/policies
+    volumes:
+      - .:/app
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  pgdata:
