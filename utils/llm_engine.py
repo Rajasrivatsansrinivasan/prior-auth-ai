@@ -271,3 +271,7 @@ def analyze_prior_auth(
         result = rule_based_decision(clinical_summary, diagnosis_codes, cpt_codes, retrieved_policies)
         ms = int((time.time() - start_time) * 1000)
         return result, "rule-based-fallback (error)", ms
+
+CPT_DESCRIPTIONS = {'27447': 'Total Knee Arthroplasty', '27130': 'Total Hip Arthroplasty', '29827': 'Rotator Cuff Repair', '72148': 'Lumbar Spine MRI', '70551': 'Brain MRI without contrast', '70552': 'Brain MRI with contrast', '70553': 'Brain MRI with/without contrast', '73721': 'Knee MRI', 'J9271': 'Pembrolizumab (Keytruda)', 'J9355': 'Trastuzumab (Herceptin)', 'J0401': 'Aripiprazole (Abilify)'}
+
+ICD_DESCRIPTIONS = {'M17.11': 'Primary osteoarthritis right knee', 'M17.12': 'Primary osteoarthritis left knee', 'M17.31': 'Post-traumatic osteoarthritis right knee', 'C34.12': 'NSCLC upper lobe left lung', 'C34.11': 'NSCLC upper lobe right lung', 'G43.909': 'Migraine unspecified', 'M54.5': 'Low back pain', 'F20.9': 'Schizophrenia unspecified', 'F32.9': 'Major depressive disorder'}
