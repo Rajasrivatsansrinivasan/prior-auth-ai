@@ -53,6 +53,13 @@ STRONG_DENIAL = [
     "normal neurological exam", "no red flags",
     "no neurological deficit", "responsive to otc",
     "ibuprofen relieved", "advil relieved",
+    "completely normal", "no red flag",
+    "no formal", "no neurology consultation",
+    "no trial of preventive", "no awakening from sleep",
+    "not positional", "no prior workup",
+    "tried advil", "tried ibuprofen",
+    "worried about", "no family history",
+    "no focal neurological", "normal fundoscopic",
 ]
 
 
@@ -128,20 +135,21 @@ def rule_based_decision(clinical_summary, diagnosis_codes, cpt_codes, retrieved_
         ]
     elif decision == "DENIED":
         reasoning = (
-            f"Request for {cpt_desc} does not meet policy criteria. "
-            f"Denial indicators: {', '.join(matched_denial[:3])}. "
-            f"Provider may appeal with additional documentation."
+            f"Request for {cpt_desc} for {icd_desc} does not meet policy criteria. "
+            f"Denial indicators found: {', '.join(matched_denial[:4])}. "
+            f"Provider may appeal within 60 days with additional clinical documentation."
         )
         actions = [
             "Send denial notice with specific policy citation to provider",
             "Include appeal rights and 60-day appeal window in notice",
             "Offer peer-to-peer review within 72 hours",
+            "Document denial rationale in member record",
         ]
     else:
         reasoning = (
-            f"Request for {cpt_desc} requires additional clinical review. "
-            f"{'Approval criteria found: ' + ', '.join(matched_approval[:2]) if matched_approval else 'Insufficient clinical information provided.'}. "
-            f"Additional documentation needed."
+            f"Request for {cpt_desc} for {icd_desc} requires additional clinical review. "
+            f"{'Partial approval criteria found: ' + ', '.join(matched_approval[:2]) + '.' if matched_approval else 'Insufficient clinical information provided.'} "
+            f"Additional documentation needed to make a final determination."
         )
         actions = [
             "Request additional clinical documentation from ordering provider",
@@ -156,7 +164,7 @@ def rule_based_decision(clinical_summary, diagnosis_codes, cpt_codes, retrieved_
         "policy_citations": _extract_relevant_citations(retrieved_policies, decision),
         "recommended_actions": actions,
         "matched_approval_indicators": matched_approval[:6],
-        "matched_denial_indicators": matched_denial[:4],
+        "matched_denial_indicators": matched_denial[:6],
     }
 
 
